@@ -9,14 +9,14 @@
 <body>
     <div>
         <h1>Students Form</h1>
-        <form action="#" name="Studentsform" class="Studentsform">
+        <form action="#" name="Studentsform" class="Studentsform" onsubmit="event_handling ()">
             <label for="firstName" style="color: blue;">First Name</label>
             <input type="text" name="firstName"><br>
             <br>
-            <label for="lasttName">last Name</label>
+            <label for="lasttName" style="color: blue;">last Name</label>
             <input type="text" name="lastName"><br>
             <br>
-            <label for="Age">Age</label>
+            <label for="Age" style="color: rgb(159, 135, 27);">Age</label>
             <input type="number" name="Age"><br>
             <br>
             <h3>Gender</h3>
@@ -30,12 +30,9 @@
             <input type="date" name="DOB"><br>
             <br>
             <input type="submit" class="btn" value="Submit">
-            <input type="reset" class="btn" value="Reset">
+            <input type="reset" class="btn" value="Reset" onclick="event_handling ()">
 
         </form>
-    </div>
-    <div>
-        <h3>Registration Form</h3>
     </div>
     <script src="first.js"></script>
 </body>
